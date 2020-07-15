@@ -13,20 +13,34 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<div class="background">
-  <div class="container pt-9 pb-8">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
-        <% end %>
-      </div>
-
-    </div>
-<div><h1>Hola OK!</h1></div>
-  </div>
+<div class="backgroundHome">
+<div>
+    <h1 class="h1home">Bienvenido</h1>
 </div>
+<div>
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+</g>
+</svg>
+</div>
+</div>
+
+<div class="divClass divFloatSea2" id="div1" style="background-image:url('https://mexnube.com/seayou/1si.jpg')"></div>
+<div class="divClass divFloatSea2" id="div2" style="background-image:url('https://mexnube.com/seayou/2si.jpg')"></div>
+<div class="divClass divFloatSea4" id="div3" style="background-image:url('https://mexnube.com/seayou/3si.jpg')"></div>
+<div class="divClass divFloatSea4" id="div4" style="background-image:url('https://mexnube.com/seayou/4si.jpg')"></div>
+<div class="divClass divFloatSea8" id="div5" style="background-image:url('https://mexnube.com/seayou/5si.jpg')"></div>
+<div class="divClass divFloatSea8" id="div6" style="background-image:url('https://mexnube.com/seayou/6si.jpg')"></div>
+<div class="divClass divFloatSea8" id="div7" style="background-image:url('https://mexnube.com/seayou/7si.jpg')"></div>
+<div class="divClass divFloatSea8" id="div8" style="background-image:url('https://mexnube.com/seayou/8si.jpg')"></div>
+
 
 <%= render "main/components/features" %>
