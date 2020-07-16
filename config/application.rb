@@ -134,7 +134,7 @@ module Greenlight
     config.branding_image_default = "https://mexnube.com/seayou/seayouwith_text.png"
 
     # Default primary color if the user does not specify one
-    config.primary_color_default = "#467fcf"
+    config.primary_color_default = "#1a86f9"
 
     # Default primary color lighten if the user does not specify one
     config.primary_color_lighten_default = "#e8eff9"

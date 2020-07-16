@@ -3,7 +3,7 @@
 class UserMailerPreview < ActionMailer::Preview
   def initialize(_params)
     @logo = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
-    @color = "#467fcf"
+    @color = "#1a86f9"
   end
 
   # Preview this email at
@@ -56,7 +56,7 @@ class UserMailerPreview < ActionMailer::Preview
     role = Role.first
     url = "http://example.com"
     logo_image = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
-    user_color = "#467fcf"
+    user_color = "#1a86f9"
     UserMailer.user_promoted(user, role, url, logo_image, user_color)
   end
 
@@ -67,7 +67,7 @@ class UserMailerPreview < ActionMailer::Preview
     role = Role.first
     url = "http://example.com"
     logo_image = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
-    user_color = "#467fcf"
+    user_color = "#1a86f9"
     UserMailer.user_demoted(user, role, url, logo_image, user_color)
   end
 end
