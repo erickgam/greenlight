@@ -1,3 +1,6 @@
+.footer {
+  border-top: none !important;
+}
 
 .waves {
   position:relative;
@@ -51,7 +54,6 @@
   height: 100px;
   border-radius: 50%;
   background-size: cover;
-  cursor: pointer;
 }
 
 
@@ -180,3 +182,12 @@ margin-bottom: 90px;
         transform: translatey(0px);
     }
 }
+
+
+
+
+
+
+/* Empieza slide termina bolitas */
+
+
