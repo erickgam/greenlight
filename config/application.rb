@@ -126,7 +126,7 @@ module Greenlight
     config.maintenance_mode = ENV["MAINTENANCE_MODE"] == "true"
 
     config.report_issue_url = ENV["REPORT_ISSUE_URL"]
-    config.help_url = ENV["HELP_URL"].nil? ? "https://docs.bigbluebutton.org/greenlight/gl-overview.html" : ENV["HELP_URL"]
+    config.help_url = ENV["HELP_URL"].nil? ? "https://www.facebook.com/SeaYou-188287092967187/" : ENV["HELP_URL"]
 
     # DEFAULTS
 

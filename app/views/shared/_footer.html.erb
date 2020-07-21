@@ -13,21 +13,53 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<footer class="footer pt-3">
+
+<footer class="footer pt-3" style="
+    padding-left: 15px;
+    padding-right: 15px;
+">
+    <div class="row feature-stamp">
+    <div class="col-lg-6 col-md-6" style="
+    text-align: left;
+    /* padding: 0px; */
+">
+<h2 class="heading">Contáctanos</h2><div class="text" style="
+    margin-bottom: 40px;
+"><div class="text"><p>Dale like a nuestra página de facebbok y comentanos tu experiencia con el servicio de video conferencia que actualmente te ofrecemos, cualquier tipo de comentario que tengas nos ayudaría para mejorar.</p><ul style="
+    margin-bottom: 0px;
+"><li>
+    
+ Síguenos a través de Facebook: <a href="https://www.facebook.com/SeaYou-188287092967187/" target="_blank"><i class="fab fa-facebook"></i> Seayou</a>
+  </li><li>Ponte en contacto a través de nuestro correo electrónico: <a href="mailto:seayoumx@gmail.com">seayoumx@gmail.com</a> </li>
+  <li>Consulta nuestro aviso de privacidad <a href="https://mexnube.com/aviso-pri-seayou/" target="_blank">Click Aquí</a></li>
+  </ul>
+
+</div></div>
+    </div>
+    <div class="col-lg-6 col-md-6" style="
+    text-align: left;
+    /* padding: 0px; */
+">
+<h2 class="heading">Donaciones</h2><div class="text"><div class="text"><p>Ayudanos a contribuir para que nuestras video llamadas sigan durando 2 horas. Puedes donar a través de transerencia bancaria o por medio de Paypal.</p><ul style="
+    margin-bottom: 0px;
+"><li>Donar por transferencia cuenta CLABE Bancomer: 012 261 01123544605 1</li><li>Donar a través de Paypal o tarjeta bancaria.</li></ul>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="473AHZTZR8SYJ">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+<img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div>
+    </div>
+    
+    
+  </div>
   <p class="text-center mb-1">
-    <%= t("footer.powered_by", href: link_to(t("NegrosDev"), "https://bigblue.mexnube.com/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %>
-    <% if legal_url.present? %>
-      <span>
-        |
-        <%= link_to(t("footer.legal"), legal_url) %>
-      </span> 
-    <% end %>
-    <% if privpolicy_url.present? %>
-      <span>
-        |
-        <%= link_to(t("footer.privpolicy"), privpolicy_url)  %>
-      </span>
-    <% end %>
+    Funciona con Greenlight 2.6
   </p>
 </footer>
 
